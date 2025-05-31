@@ -4,6 +4,21 @@ This README provides a structured overview of best practices and steps for creat
 
 ---
 
+## Table of Contents
+
+1. [Project Structure](#1-project-structure)
+2. [HTML Best Practices](#2-html-best-practices)
+3. [CSS Best Practices](#3-css-best-practices)
+4. [JavaScript Best Practices](#4-javascript-best-practices)
+5. [Images and Assets](#5-images-and-assets)
+6. [Version Control](#6-version-control)
+7. [Documentation](#7-documentation)
+8. [Going Live](#8-going-live)
+9. [Accessibility & SEO](#9-accessibility--seo)
+10. [Example: Minimal HTML File](#10-example-minimal-html-file)
+
+---
+
 ## 1. Project Structure
 
 Organize your project files for clarity and scalability. A typical structure:
@@ -30,6 +45,7 @@ my-website/
 - Always start with `<!DOCTYPE html>` and use `<html>`, `<head>`, and `<body>` tags.
 - Use semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, etc.
 - Keep content organized and readable.
+- Use proper indentation for clarity.
 
 ---
 
@@ -56,6 +72,7 @@ my-website/
   <script src="js/script.js"></script>
   ```
 - Keep logic modular and avoid mixing JS with HTML when possible.
+- Use `const` and `let` instead of `var`.
 
 ---
 
@@ -67,13 +84,14 @@ my-website/
   <img src="images/logo.png" alt="Logo" />
   ```
 - For online images, use direct URLs. For Google Drive, ensure you have a direct link (not a sharing link).
+- Optimize images for web (small file size, appropriate dimensions).
 
 ---
 
 ## 6. Version Control
 
 - Use Git to track changes and back up your work.
-- Add a `.gitignore` file to exclude unnecessary files.
+- Add a `.gitignore` file to exclude unnecessary files (e.g., `node_modules/`, `.DS_Store`).
 
 ---
 
@@ -81,6 +99,7 @@ my-website/
 
 - Keep this `README.md` updated with instructions and project details.
 - Document any setup steps, dependencies, or special instructions.
+- Add comments in your code for clarity.
 
 ---
 
@@ -88,6 +107,7 @@ my-website/
 
 - To share your site online, use platforms like GitHub Pages, Netlify, or Vercel.
 - Make sure all assets (images, CSS, JS) are uploaded with your site.
+- Test your site on different devices and browsers.
 
 ---
 
@@ -96,6 +116,7 @@ my-website/
 - Use alt text for images.
 - Use proper heading structure (`<h1>`, `<h2>`, etc.).
 - Add a `<title>` and meta description in the `<head>`.
+- Ensure good color contrast and keyboard navigation.
 
 ---
 
@@ -125,4 +146,5 @@ my-website/
 
 ---
 
-Happy coding! If you have questions, update this README with your notes and solutions.
+Happy coding!  
+If you have questions, update this README with your notes and solutions.
